@@ -2,5 +2,21 @@
   "name": "mt-the-ripper",
   "version": "1.0.0",
   "main": "index.ts",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node index.ts"
+  },
+  "dependencies": {
+    "loading-spinner": "^1.2.1",
+    "x-ray": "^2.3.4",
+    "xlsx": "^0.15.5"
+  },
+  "devDependencies": {
+    "@types/node": "^13.7.2",
+    "@types/x-ray": "^2.3.3",
+    "ts-node": "^8.6.2",
+    "tslint": "^6.0.0",
+    "tslint-config-standard": "^9.0.0",
+    "typescript": "^3.7.5"
+  }
 }
